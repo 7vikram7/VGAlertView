@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F74239EA1D12C5F600726CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74239E91D12C5F600726CCC /* AppDelegate.swift */; };
+		F74239EC1D12C5F600726CCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74239EB1D12C5F600726CCC /* ViewController.swift */; };
+		F74239EF1D12C5F700726CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74239ED1D12C5F700726CCC /* Main.storyboard */; };
+		F74239F11D12C5F700726CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74239F01D12C5F700726CCC /* Assets.xcassets */; };
+		F74239F41D12C5F700726CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74239F21D12C5F700726CCC /* LaunchScreen.storyboard */; };
+		F74239FF1D12C5F700726CCC /* VGAlertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74239FE1D12C5F700726CCC /* VGAlertViewTests.swift */; };
+		F7423A0A1D12C5F700726CCC /* VGAlertViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7423A091D12C5F700726CCC /* VGAlertViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F74239FB1D12C5F700726CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F74239DE1D12C5F600726CCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F74239E51D12C5F600726CCC;
+			remoteInfo = VGAlertView;
+		};
+		F7423A061D12C5F700726CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F74239DE1D12C5F600726CCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F74239E51D12C5F600726CCC;
+			remoteInfo = VGAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F74239E61D12C5F600726CCC /* VGAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VGAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74239E91D12C5F600726CCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F74239EB1D12C5F600726CCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F74239EE1D12C5F700726CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F74239F01D12C5F700726CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F74239F31D12C5F700726CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F74239F51D12C5F700726CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74239FA1D12C5F700726CCC /* VGAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VGAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74239FE1D12C5F700726CCC /* VGAlertViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGAlertViewTests.swift; sourceTree = "<group>"; };
+		F7423A001D12C5F700726CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7423A051D12C5F700726CCC /* VGAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VGAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7423A091D12C5F700726CCC /* VGAlertViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGAlertViewUITests.swift; sourceTree = "<group>"; };
+		F7423A0B1D12C5F700726CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F74239E31D12C5F600726CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74239F71D12C5F700726CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7423A021D12C5F700726CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F74239DD1D12C5F600726CCC = {
+			isa = PBXGroup;
+			children = (
+				F74239E81D12C5F600726CCC /* VGAlertView */,
+				F74239FD1D12C5F700726CCC /* VGAlertViewTests */,
+				F7423A081D12C5F700726CCC /* VGAlertViewUITests */,
+				F74239E71D12C5F600726CCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F74239E71D12C5F600726CCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F74239E61D12C5F600726CCC /* VGAlertView.app */,
+				F74239FA1D12C5F700726CCC /* VGAlertViewTests.xctest */,
+				F7423A051D12C5F700726CCC /* VGAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F74239E81D12C5F600726CCC /* VGAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F74239E91D12C5F600726CCC /* AppDelegate.swift */,
+				F74239EB1D12C5F600726CCC /* ViewController.swift */,
+				F74239ED1D12C5F700726CCC /* Main.storyboard */,
+				F74239F01D12C5F700726CCC /* Assets.xcassets */,
+				F74239F21D12C5F700726CCC /* LaunchScreen.storyboard */,
+				F74239F51D12C5F700726CCC /* Info.plist */,
+			);
+			path = VGAlertView;
+			sourceTree = "<group>";
+		};
+		F74239FD1D12C5F700726CCC /* VGAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F74239FE1D12C5F700726CCC /* VGAlertViewTests.swift */,
+				F7423A001D12C5F700726CCC /* Info.plist */,
+			);
+			path = VGAlertViewTests;
+			sourceTree = "<group>";
+		};
+		F7423A081D12C5F700726CCC /* VGAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7423A091D12C5F700726CCC /* VGAlertViewUITests.swift */,
+				F7423A0B1D12C5F700726CCC /* Info.plist */,
+			);
+			path = VGAlertViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F74239E51D12C5F600726CCC /* VGAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7423A0E1D12C5F700726CCC /* Build configuration list for PBXNativeTarget "VGAlertView" */;
+			buildPhases = (
+				F74239E21D12C5F600726CCC /* Sources */,
+				F74239E31D12C5F600726CCC /* Frameworks */,
+				F74239E41D12C5F600726CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VGAlertView;
+			productName = VGAlertView;
+			productReference = F74239E61D12C5F600726CCC /* VGAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F74239F91D12C5F700726CCC /* VGAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7423A111D12C5F700726CCC /* Build configuration list for PBXNativeTarget "VGAlertViewTests" */;
+			buildPhases = (
+				F74239F61D12C5F700726CCC /* Sources */,
+				F74239F71D12C5F700726CCC /* Frameworks */,
+				F74239F81D12C5F700726CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F74239FC1D12C5F700726CCC /* PBXTargetDependency */,
+			);
+			name = VGAlertViewTests;
+			productName = VGAlertViewTests;
+			productReference = F74239FA1D12C5F700726CCC /* VGAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7423A041D12C5F700726CCC /* VGAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7423A141D12C5F700726CCC /* Build configuration list for PBXNativeTarget "VGAlertViewUITests" */;
+			buildPhases = (
+				F7423A011D12C5F700726CCC /* Sources */,
+				F7423A021D12C5F700726CCC /* Frameworks */,
+				F7423A031D12C5F700726CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7423A071D12C5F700726CCC /* PBXTargetDependency */,
+			);
+			name = VGAlertViewUITests;
+			productName = VGAlertViewUITests;
+			productReference = F7423A051D12C5F700726CCC /* VGAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F74239DE1D12C5F600726CCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = 7vikram7;
+				TargetAttributes = {
+					F74239E51D12C5F600726CCC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F74239F91D12C5F700726CCC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F74239E51D12C5F600726CCC;
+					};
+					F7423A041D12C5F700726CCC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F74239E51D12C5F600726CCC;
+					};
+				};
+			};
+			buildConfigurationList = F74239E11D12C5F600726CCC /* Build configuration list for PBXProject "VGAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F74239DD1D12C5F600726CCC;
+			productRefGroup = F74239E71D12C5F600726CCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F74239E51D12C5F600726CCC /* VGAlertView */,
+				F74239F91D12C5F700726CCC /* VGAlertViewTests */,
+				F7423A041D12C5F700726CCC /* VGAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F74239E41D12C5F600726CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74239F41D12C5F700726CCC /* LaunchScreen.storyboard in Resources */,
+				F74239F11D12C5F700726CCC /* Assets.xcassets in Resources */,
+				F74239EF1D12C5F700726CCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74239F81D12C5F700726CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7423A031D12C5F700726CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F74239E21D12C5F600726CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74239EC1D12C5F600726CCC /* ViewController.swift in Sources */,
+				F74239EA1D12C5F600726CCC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F74239F61D12C5F700726CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74239FF1D12C5F700726CCC /* VGAlertViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7423A011D12C5F700726CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7423A0A1D12C5F700726CCC /* VGAlertViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F74239FC1D12C5F700726CCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F74239E51D12C5F600726CCC /* VGAlertView */;
+			targetProxy = F74239FB1D12C5F700726CCC /* PBXContainerItemProxy */;
+		};
+		F7423A071D12C5F700726CCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F74239E51D12C5F600726CCC /* VGAlertView */;
+			targetProxy = F7423A061D12C5F700726CCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F74239ED1D12C5F700726CCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F74239EE1D12C5F700726CCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F74239F21D12C5F700726CCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F74239F31D12C5F700726CCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7423A0C1D12C5F700726CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7423A0D1D12C5F700726CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7423A0F1D12C5F700726CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VGAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-vikram7.VGAlertView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7423A101D12C5F700726CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VGAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-vikram7.VGAlertView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7423A121D12C5F700726CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VGAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-vikram7.VGAlertViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VGAlertView.app/VGAlertView";
+			};
+			name = Debug;
+		};
+		F7423A131D12C5F700726CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VGAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-vikram7.VGAlertViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VGAlertView.app/VGAlertView";
+			};
+			name = Release;
+		};
+		F7423A151D12C5F700726CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VGAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-vikram7.VGAlertViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VGAlertView;
+			};
+			name = Debug;
+		};
+		F7423A161D12C5F700726CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VGAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-vikram7.VGAlertViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VGAlertView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F74239E11D12C5F600726CCC /* Build configuration list for PBXProject "VGAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7423A0C1D12C5F700726CCC /* Debug */,
+				F7423A0D1D12C5F700726CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7423A0E1D12C5F700726CCC /* Build configuration list for PBXNativeTarget "VGAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7423A0F1D12C5F700726CCC /* Debug */,
+				F7423A101D12C5F700726CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7423A111D12C5F700726CCC /* Build configuration list for PBXNativeTarget "VGAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7423A121D12C5F700726CCC /* Debug */,
+				F7423A131D12C5F700726CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7423A141D12C5F700726CCC /* Build configuration list for PBXNativeTarget "VGAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7423A151D12C5F700726CCC /* Debug */,
+				F7423A161D12C5F700726CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F74239DE1D12C5F600726CCC /* Project object */;
+}
