@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F74239EA1D12C5F600726CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74239E91D12C5F600726CCC /* AppDelegate.swift */; };
-		F74239EC1D12C5F600726CCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74239EB1D12C5F600726CCC /* ViewController.swift */; };
 		F74239EF1D12C5F700726CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74239ED1D12C5F700726CCC /* Main.storyboard */; };
-		F74239F11D12C5F700726CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74239F01D12C5F700726CCC /* Assets.xcassets */; };
 		F74239F41D12C5F700726CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74239F21D12C5F700726CCC /* LaunchScreen.storyboard */; };
 		F74239FF1D12C5F700726CCC /* VGAlertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74239FE1D12C5F700726CCC /* VGAlertViewTests.swift */; };
 		F7423A0A1D12C5F700726CCC /* VGAlertViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7423A091D12C5F700726CCC /* VGAlertViewUITests.swift */; };
+		F7423A211D12D90600726CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7423A191D12D90600726CCC /* AppDelegate.swift */; };
+		F7423A221D12D90600726CCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7423A1B1D12D90600726CCC /* ViewController.swift */; };
+		F7423A231D12D90600726CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7423A1D1D12D90600726CCC /* Assets.xcassets */; };
+		F7423A241D12D90600726CCC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7423A1E1D12D90600726CCC /* Info.plist */; };
+		F7423A261D12DC4200726CCC /* VGAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7423A251D12DC4200726CCC /* VGAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +37,19 @@
 
 /* Begin PBXFileReference section */
 		F74239E61D12C5F600726CCC /* VGAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VGAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F74239E91D12C5F600726CCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F74239EB1D12C5F600726CCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F74239EE1D12C5F700726CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F74239F01D12C5F700726CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F74239F31D12C5F700726CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F74239F51D12C5F700726CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F74239FA1D12C5F700726CCC /* VGAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VGAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74239FE1D12C5F700726CCC /* VGAlertViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGAlertViewTests.swift; sourceTree = "<group>"; };
 		F7423A001D12C5F700726CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7423A051D12C5F700726CCC /* VGAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VGAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7423A091D12C5F700726CCC /* VGAlertViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGAlertViewUITests.swift; sourceTree = "<group>"; };
 		F7423A0B1D12C5F700726CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7423A191D12D90600726CCC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7423A1B1D12D90600726CCC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7423A1D1D12D90600726CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7423A1E1D12D90600726CCC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7423A251D12DC4200726CCC /* VGAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGAlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +100,11 @@
 		F74239E81D12C5F600726CCC /* VGAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				F74239E91D12C5F600726CCC /* AppDelegate.swift */,
-				F74239EB1D12C5F600726CCC /* ViewController.swift */,
+				F7423A171D12D90600726CCC /* Application */,
+				F7423A1C1D12D90600726CCC /* SupportingFiles */,
+				F7423A1F1D12D90600726CCC /* ThirdParty */,
 				F74239ED1D12C5F700726CCC /* Main.storyboard */,
-				F74239F01D12C5F700726CCC /* Assets.xcassets */,
 				F74239F21D12C5F700726CCC /* LaunchScreen.storyboard */,
-				F74239F51D12C5F700726CCC /* Info.plist */,
 			);
 			path = VGAlertView;
 			sourceTree = "<group>";
@@ -123,6 +125,56 @@
 				F7423A0B1D12C5F700726CCC /* Info.plist */,
 			);
 			path = VGAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		F7423A171D12D90600726CCC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F7423A181D12D90600726CCC /* Appdelegate */,
+				F7423A1A1D12D90600726CCC /* Controller */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F7423A181D12D90600726CCC /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F7423A191D12D90600726CCC /* AppDelegate.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		F7423A1A1D12D90600726CCC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7423A1B1D12D90600726CCC /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F7423A1C1D12D90600726CCC /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F7423A1D1D12D90600726CCC /* Assets.xcassets */,
+				F7423A1E1D12D90600726CCC /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F7423A1F1D12D90600726CCC /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				F7423A201D12D90600726CCC /* VGAlertView */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		F7423A201D12D90600726CCC /* VGAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F7423A251D12DC4200726CCC /* VGAlertView.swift */,
+			);
+			path = VGAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +281,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7423A241D12D90600726CCC /* Info.plist in Resources */,
 				F74239F41D12C5F700726CCC /* LaunchScreen.storyboard in Resources */,
-				F74239F11D12C5F700726CCC /* Assets.xcassets in Resources */,
+				F7423A231D12D90600726CCC /* Assets.xcassets in Resources */,
 				F74239EF1D12C5F700726CCC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +309,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F74239EC1D12C5F600726CCC /* ViewController.swift in Sources */,
-				F74239EA1D12C5F600726CCC /* AppDelegate.swift in Sources */,
+				F7423A221D12D90600726CCC /* ViewController.swift in Sources */,
+				F7423A261D12DC4200726CCC /* VGAlertView.swift in Sources */,
+				F7423A211D12D90600726CCC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = VGAlertView/Info.plist;
+				INFOPLIST_FILE = VGAlertView/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-vikram7.VGAlertView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,7 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = VGAlertView/Info.plist;
+				INFOPLIST_FILE = VGAlertView/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-vikram7.VGAlertView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +538,7 @@
 				F7423A101D12C5F700726CCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7423A111D12C5F700726CCC /* Build configuration list for PBXNativeTarget "VGAlertViewTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +547,7 @@
 				F7423A131D12C5F700726CCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7423A141D12C5F700726CCC /* Build configuration list for PBXNativeTarget "VGAlertViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +556,7 @@
 				F7423A161D12C5F700726CCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
