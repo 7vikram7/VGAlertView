@@ -10,18 +10,27 @@ import UIKit
 
 class VGAlertView: UIViewController {
 
+    //MARK: - View Life Cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    //MARK: - Public Methods
+
+    public func showAlertOnViewController(parentViewController vc:UIViewController, titleName title:String) {
+        
     }
     
+    
+    
+//    - (void)showAttributedEdit:(UIViewController *)vc headerTitle:(NSString *)headerTitle headerSubTitle:(NSMutableAttributedString *)headerSubTitle title:(NSMutableAttributedString *)title subTitle:(NSMutableAttributedString *)subTitle closeButtonTitle:(NSString *)closeButtonTitle duration:(NSTimeInterval)duration;
 
+
+
+    
     /*
     // MARK: - Navigation
 
