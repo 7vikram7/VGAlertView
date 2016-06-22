@@ -19,6 +19,8 @@ class VGAlertView: UIViewController {
         
     }
 
+    
+    
     //MARK: - Public Methods
 
     func showAlertOnViewController(parentViewController vc:UIViewController, title:String, message:String ) {
